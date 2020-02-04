@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="output-area">
+            <div class="input-history"></div>
+            <div class="current-input">0</div>
+        </div>
+        <button class="key--operator" data-action="clear" style="background-color: lightgray;height: 75px;width: 180px;border-radius: 40px;">AC</button>
+        <div></div>
+        <button class="key--operator" data-action="delete" style="background-color: lightgray;">DEL</button>
+        <button class="key--operator" data-action="divide" style="background-color: orange;">÷</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="key--operator" data-action="multiply" style="background-color: orange;">*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="key--operator" data-action="add" style="background-color: orange;">+</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="key--operator" data-action="subtract" style="background-color: orange;">-</button>
+        <button style="height: 75px; width: 180px;border-radius: 40px;">0</button>
+        <div></div>
+        <button class="key--operator" data-action="decimal">.</button>
+        <button class="key--operator" data-action="calculate" style="background-color: orange;">=</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
